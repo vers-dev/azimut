@@ -655,7 +655,7 @@ a {
       position: fixed;
       flex-direction: column;
       height: 100vh;
-      width: 40%;
+      width: 60%;
       right: 0;
       top: 0;
       z-index: 5;
@@ -869,9 +869,9 @@ a {
     }
   }
 
-  .request{
-    &-form{
-      &__title{
+  .request {
+    &-form {
+      &__title {
         font-size: 36px;
       }
     }
@@ -968,26 +968,24 @@ a {
   }
 
   .deal {
-    &-item{
-      
-      &__img{
+    &-item {
+      &__img {
         width: 250px;
         height: 300px;
         margin: 0;
       }
-      &__title{
+      &__title {
         font-size: 24px;
       }
     }
   }
 
-  .desc{
-    &-item{
-      
-      &__title{
+  .desc {
+    &-item {
+      &__title {
         font-size: 24px;
       }
-      &__text{
+      &__text {
         padding: 30px 30px 30px 30px;
       }
     }
